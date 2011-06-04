@@ -1,0 +1,28 @@
+<ul>
+  <% if Admin::CouponsController.searchable? %>
+    <li>
+      <%= render :partial => "/shared/admin/search",
+                  :locals => {
+                    :url => admin_coupons_path
+                  } %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), new_admin_coupon_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? and Admin::CouponsController.sortable? and Coupon.count > 1 %>
+  <li>
+    <%= link_to t('.reorder', :what => "Coupons"),
+                 admin_coupons_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Coupons"),
+                 admin_coupons_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

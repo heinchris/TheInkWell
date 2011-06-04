@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    coupons:
+      title: Coupons
+  admin:
+    coupons:
+      actions:
+        create_new: CREATE NEW Coupon
+        reorder: REORDR Coupons
+        reorder_done: DUN REORDERIN Coupons
+      records:
+        title: Coupons
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Coupons YET. CLICK "CREATE NEW Coupon" 2 ADD UR FURST coupon.
+      coupon:
+        view_live_html: VIEW DIS coupon LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS coupon
+        delete: REMOOV DIS coupon FOREVR
+  coupons:
+    show:
+      other: OTHR Coupons

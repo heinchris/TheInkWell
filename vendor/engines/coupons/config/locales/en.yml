@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    coupons:
+      title: Coupons
+  admin:
+    coupons:
+      actions:
+        create_new: Add New Coupon
+        reorder: Reorder Coupons
+        reorder_done: Done Reordering Coupons
+      records:
+        title: Coupons
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Coupons yet. Click "Add New Coupon" to add your first coupon.
+      coupon:
+        view_live_html: View this coupon live <br/><em>(opens in a new window)</em>
+        edit: Edit this coupon
+        delete: Remove this coupon forever
+  coupons:
+    show:
+      other: Other Coupons

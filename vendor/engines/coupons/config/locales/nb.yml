@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    coupons:
+      title: Coupons
+  admin:
+    coupons:
+      actions:
+        create_new: Lag en ny Coupon
+        reorder: Endre rekkefølgen på Coupons
+        reorder_done: Ferdig å endre rekkefølgen Coupons
+      records:
+        title: Coupons
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Coupons enda. Klikk på "Lag en ny Coupon" for å legge til din første coupon.
+      coupon:
+        view_live_html: Vis hvordan denne coupon ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne coupon
+        delete: Fjern denne coupon permanent
+  coupons:
+    show:
+      other: Andre Coupons
